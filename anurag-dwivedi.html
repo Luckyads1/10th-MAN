@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10th MAN</title>
+    <link rel="stylesheet" href="Munna-Bhaiya.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+
+
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        // Initialize two Pixel IDs
+        fbq('init', '1877253806193284'); // Pixel 3
+        fbq('init', '1343437580751725'); // Pixel 3
+        fbq('init', '811706658156612'); // Pixel 3
+
+
+
+        // Track PageView for both pixels
+        fbq('track', 'PageView');
+    </script>
+
+    <!-- Noscript fallback for 2 Pixels -->
+    <noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1877253806193284&ev=PageView&noscript=1" />
+   <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=1343437580751725&ev=PageView&noscript=1" />
+   <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=811706658156612&ev=PageView&noscript=1" />
+
+       
+</noscript>
+    <!-- End Meta Pixel Code -->
+
+
+</head>
+
+<body>
+    <div class="hero">
+        <div class="conent">
+            <h2 class="h2">10th MAN </h2>
+            <h4 style="color: white;">Live match updates and analysis</h4>
+        </div> <img src="images/ajshbosbvob.jpg" />
+        <div class="counter">FREE JOINING ENDS IN... <span id="countdown">60 seconds</span></div><br>
+        <div>
+            <h5 class="mgtp">Secondary channel for updates — @Amann_king</h5>
+        </div>
+        <div>
+            <h5 class="mgtp">Request access — approvals are quick ⬇️</h5>
+        </div>
+        <div class="button"> <a href="https://t.me/+CT5H4V9lNlc3OWQ1" class=" btn btn--stripe"> JOIN THE CHANNEL NOW <i class="fa-brands fa-telegram " aria-hidden="true"></i> </a> </div>
+    </div>
+    <!-- Standard disclaimer block (visible, concise) -->
+    <div style="margin:20px; padding:15px; font-size:14px; color:#555; border-top:1px solid #ccc; text-align:center;"> Disclaimer: This channel shares cricket updates, analysis, and general information for fans. It does not provide or promote betting or gambling, and no outcomes are guaranteed. Joining or acting on information is at personal discretion—please verify
+        independently and act responsibly. </div>
+
+    <script>
+        let remainingSeconds = 60;
+
+
+        function updateCountdown() {
+            document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
+
+
+            remainingSeconds -= 1;
+
+
+            if (remainingSeconds < 0) {
+                remainingSeconds = 60;
+            }
+
+        }
+
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+
+</html>
